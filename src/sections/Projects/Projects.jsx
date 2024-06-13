@@ -2,6 +2,7 @@ import styles from './ProjectsStyles.module.css';
 import movixer from '../../assets/Movixer.png';
 import refokus from '../../assets/refokus.png';
 import obys from '../../assets/obys.png';
+import exoape from '../../assets/exoape.png';
 // import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
 
@@ -25,6 +26,12 @@ function Projects() {
         <ProjectCard
           src={obys}
           link="https://obys-agency-plum.vercel.app/"
+          h3="Obys Agency-clone"
+          p="Portfolio Website"
+        />
+        <ProjectCard
+          src={exoape}
+          link="https://exo-ape-clone-pearl.vercel.app/"
           h3="Obys Agency-clone"
           p="Portfolio Website"
         />
