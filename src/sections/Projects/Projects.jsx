@@ -32,7 +32,7 @@ function Projects() {
         <ProjectCard
           src={exoape}
           link="https://exo-ape-clone-pearl.vercel.app/"
-          h3="Obys Agency-clone"
+          h3="Exoape clone"
           p="Portfolio Website"
         />
         {/* <ProjectCard
